@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: dockeravan/dockeravan/k8s:v1
+        image: dockeravan/k8s:v1
         ports:
         - containerPort: 80
