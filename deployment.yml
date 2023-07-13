@@ -16,9 +16,9 @@ spec:
         app: docker-node
     spec:
       containers:
-      - name: k8s
+      - name: myimage
         image: ducks.azurecr.io/myimage:v1
         ports:
         - containerPort: 80
-    imagePullSecrets:
-    - name: acr-cert
+      imagePullSecrets:
+      - name: acr-cert
