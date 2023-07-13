@@ -18,7 +18,6 @@ spec:
       containers:
       - name: k8s
         image: ducks.azurecr.io/k8s:v1
-         imagePullPolicy: IfNotPresent
       imagePullSecrets:
       - name: ACR-Cert
         ports:
