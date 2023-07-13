@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: dockeravan/k8s:v1
+        image: ducks.azurecr.io/k8s:v1
         ports:
         - containerPort: 80
