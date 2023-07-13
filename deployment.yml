@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: ducks.azurecr.io/k8s:v1
+        image: ducks.azurecr.io/myimage:v1
         ports:
         - containerPort: 80
     imagePullSecrets:
